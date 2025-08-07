@@ -77,7 +77,7 @@ function gameFunc(params) {
     let foodElm = document.createElement("div")
     foodElm.style.gridColumnStart = food.x
     foodElm.style.gridRowStart = food.y
-    foodElm.style.backgroundColor = "indigo"
+    foodElm.classList.add('food')
     gameBody.appendChild(foodElm)
 
     // when snake will eat food this code will run
